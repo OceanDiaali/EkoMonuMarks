@@ -1,4 +1,10 @@
 class MonuMapController < UIViewController
+    ViewIdentifier = 'ViewIdentifier'
+
+    def init
+        self.tabBarItem = UITabBarItem.alloc.initWithTitle('Map', image:UIImage.imageNamed('map_pin.png'), tag:1)
+        self
+    end
     
     def loadView
         self.view = MKMapView.alloc.init
@@ -20,7 +26,7 @@ class MonuMapController < UIViewController
         navigationController.setNavigationBarHidden(true, animated:true)
       end 
 
-    ViewIdentifier = 'ViewIdentifier'
+
     def mapView(mapView, viewForAnnotation:monumark)
         view = MKPinAnnotationView.alloc.initWithAnnotation(monumark, reuseIdentifier:ViewIdentifier)
         button = UIButton.buttonWithType(UIButtonTypeDetailDisclosure)

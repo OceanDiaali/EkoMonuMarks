@@ -20,7 +20,13 @@ class AppDelegate
   def application(application, didFinishLaunchingWithOptions:launchOptions)
    @window = UIWindow.alloc.initWithFrame(UIScreen.mainScreen.bounds)
    monuMapController = MonuMapController.alloc.init
-   navigationController = UINavigationController.alloc.initWithRootViewController(monuMapController)
+   monuListController = MonuListController.alloc.init
+
+   tabBarController = UITabBarController.alloc.init
+   tabBarController.viewControllers = [monuMapController, monuListController]
+
+   
+   navigationController = UINavigationController.alloc.initWithRootViewController(tabBarController)
    @window.rootViewController = navigationController
    @window.makeKeyAndVisible
   end
