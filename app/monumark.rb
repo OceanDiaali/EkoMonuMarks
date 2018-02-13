@@ -33,7 +33,11 @@ class MonuMark
             MonuMark.new('National Stadium', 6.4972, 3.3647, "https://en.wikipedia.org/wiki/National_Stadium,_Lagos"),
             MonuMark.new('Lagos Lagoon', 6.4311, 3.4019, "https://en.wikipedia.org/wiki/Lagos_Lagoon"),
             MonuMark.new('Taiwo Olowo Monument', 6.4526, 3.3903, "https://en.wikipedia.org/wiki/Taiwo_Olowo"),
-            MonuMark.new('Muritala Mohammed Airport', 6.5818, 3.3211, "https://en.wikipedia.org/wiki/Murtala_Muhammed_International_Airport")
+            MonuMark.new('Muritala Mohammed Airport', 6.5818, 3.3211, "https://en.wikipedia.org/wiki/Murtala_Muhammed_International_Airport"),
+            MonuMark.new('Eko Atlantic', 6.4098, 3.4120, "https://en.wikipedia.org/wiki/Eko_Atlantic"),
+            MonuMark.new('Lekki Free Trade Zone', 6.4362, 3.9588, "http://lfzdc.org/"),
+            MonuMark.new('National Museum', 6.4452, 3.4032, "https://en.wikipedia.org/wiki/Nigerian_National_Museum"),
+            MonuMark.new('Welcome to Lagos statue', 6.5946, 3.9776, "https://en.wikipedia.org/wiki/Welcome_to_Lagos")
             ]
         end
     end
