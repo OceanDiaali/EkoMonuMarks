@@ -1,5 +1,7 @@
 # Join the RubyMotion Slack Channel #
 
+Icons made by "https://www.flaticon.com/authors/smashicons" 
+
 [Here is the link.](http://motioneers.herokuapp.com/) Say hello!
 
 # Minimum Requirements #
