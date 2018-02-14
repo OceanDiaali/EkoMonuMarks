@@ -37,7 +37,11 @@ class MonuMark
             MonuMark.new('Eko Atlantic', 6.4098, 3.4120, "https://en.wikipedia.org/wiki/Eko_Atlantic"),
             MonuMark.new('Lekki Free Trade Zone', 6.4362, 3.9588, "http://lfzdc.org/"),
             MonuMark.new('National Museum', 6.4452, 3.4032, "https://en.wikipedia.org/wiki/Nigerian_National_Museum"),
-            MonuMark.new('Welcome to Lagos statue', 6.5946, 3.9776, "https://en.wikipedia.org/wiki/Welcome_to_Lagos")
+            MonuMark.new('Welcome to Lagos statue', 6.5946, 3.9776, "https://en.wikipedia.org/wiki/Welcome_to_Lagos"),
+            MonuMark.new('Oba of Lagos Palace', 6.4599, 3.3895, "https://en.wikipedia.org/wiki/Iga_Idunganran"),
+            MonuMark.new('Lighthouse,Tarkwa Bay', 6.2406, 3.2347, "https://en.wikipedia.org/wiki/Tarkwa_Bay_Beach"),
+            MonuMark.new('Water House', 6.4523, 3.3892, "https://en.wikipedia.org/wiki/Water_House"),
+            MonuMark.new('Christ church cathedral', 6.4508, 3.3902, "https://en.wikipedia.org/wiki/Cathedral_Church_of_Christ,_Lagos")
             ]
         end
     end
