@@ -1,4 +1,8 @@
 class MonuDetailController < UIViewController
+    def viewDidLoad
+        view.backgroundColor = UIColor.greenColor
+    end
+
     def loadView
         self.view = UIWebView.alloc.init
     end
@@ -9,7 +13,7 @@ class MonuDetailController < UIViewController
 
     def showDetailsForMonuMark(monumark)
         navigationItem.title = monumark.title
-        request = NSURLRequest.requestWithURL(monumark.url)
+        request = NSURLRequest.requestWithURL(monumark.video_url)
         self.view.loadRequest(request)
     end
 end

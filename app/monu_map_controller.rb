@@ -5,6 +5,8 @@ class MonuMapController < UIViewController
         self.tabBarItem = UITabBarItem.alloc.initWithTitle('Map', image:UIImage.imageNamed('map_pin.png'), tag:1)
         self
     end
+
+
     
     def loadView
         self.view = MKMapView.alloc.init
@@ -41,13 +43,13 @@ class MonuMapController < UIViewController
     def showDetails(sender)
         monumark = view.selectedAnnotations[0]
         
-        navigationController.pushViewController(monuDetailController, animated:true)
-        monuDetailController.showDetailsForMonuMark(monumark)
+        navigationController.pushViewController(monuWikiDetailController, animated:true)
+        monuWikiDetailController.showWikiDetailsForMonuMark(monumark)
     end
 
     private
 
-    def monuDetailController
-        @monuDetailController ||= MonuDetailController.alloc.init
+    def monuWikiDetailController
+        @monuWikiDetailController ||= MonuWikiDetailController.alloc.init
     end
 end # end of class
